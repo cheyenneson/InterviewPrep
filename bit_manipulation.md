@@ -1,5 +1,3 @@
-Bitwise operators are used to perform bit-level operations on integer values. Here's a detailed list of all the bitwise operators, along with their properties:
-
 ### 1. **Bitwise AND (`&`)**
 - **Description**: Compares each bit of the first operand to the corresponding bit of the second operand. If both bits are `1`, the resulting bit is set to `1`. Otherwise, it is set to `0`.
 - **Example**: 
