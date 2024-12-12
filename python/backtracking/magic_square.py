@@ -31,7 +31,7 @@ def is_magic(grid):
 
 
 # backtrack through all n x n arrangements
-def generate_magic_square(grid, curr_num, magic_squares):
+def generate_magic_squares(grid, curr_num, magic_squares):
     if curr_num > 9:
         if is_magic(grid):
             magic_squares.append(grid[:])
@@ -40,7 +40,7 @@ def generate_magic_square(grid, curr_num, magic_squares):
         cell = grid[i]
         if cell == None:
             grid[i] = curr_num
-            generate_magic_square(grid, curr_num + 1, magic_squares)
+            generate_magic_squares(grid, curr_num + 1, magic_squares)
             grid[i] = None
     
 # 3 x 3
@@ -51,7 +51,7 @@ answers = [[8, 1, 6, 3, 5, 7, 4, 9, 2], [6, 1, 8, 7, 5, 3, 2, 9, 4], [4, 3, 8, 9
 grid = [None] * n * n
 curr_num = 1
 magic_squares = []
-generate_magic_square(grid, 1, magic_squares)
+generate_magic_squares(grid, 1, magic_squares)
 
 # check my solution
 answers = sorted(answers)
