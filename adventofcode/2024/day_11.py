@@ -1,7 +1,7 @@
 import math
 import sys
 
-file = open('day_11_input.txt', 'r')
+file = open('input/day_11_input.txt', 'r')
 input = file.readline().split(' ')
 input_arr = [int(x) for x in input]
 

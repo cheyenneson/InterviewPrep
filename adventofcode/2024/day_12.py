@@ -1,6 +1,6 @@
 #price = area X perimeter
 
-file = open('day_12_input.txt', 'r')
+file = open('input/day_12_input.txt', 'r')
 input = []
 
 # create a 2d array to represent the plots

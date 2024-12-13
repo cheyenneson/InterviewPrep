@@ -15,7 +15,7 @@ def caclulate(str):
 solution = 0
 
 # retrieve input from input file
-input = open('day_3_input.txt', 'r')
+input = open('input/day_3_input.txt', 'r')
 str = ""
 for line in input:
     str += line

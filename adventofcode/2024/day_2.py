@@ -7,7 +7,7 @@ def inc_safe(a, b, inc):
 def safe(a, b, inc):
     return (inc_safe(a, b, inc)) and diff_safe(a, b)
 
-input = open('day_2_input.txt', 'r')
+input = open('input/day_2_input.txt', 'r')
 data = []
 num_safe = 0
 damp_safe = 0

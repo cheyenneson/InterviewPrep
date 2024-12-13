@@ -15,7 +15,7 @@ def similarity_score(left, right):
     return sum
 
 
-input = open('day_1_input.txt', 'r')
+input = open('input/day_1_input.txt', 'r')
 left = []
 right = []
 sum = 0
