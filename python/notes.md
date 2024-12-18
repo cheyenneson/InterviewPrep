@@ -24,3 +24,8 @@ curr_pos[0], curr_pos[1] = new_pos
 ```
 str = str.strip()
 ```
+
+### Print concatenated list of strings from a list
+```
+''.join(arr)
+```
