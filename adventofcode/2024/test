@@ -1,0 +1,5 @@
+curl -X POST "https://script.google.com/macros/s/AKfycbzKNd8JvQ4pGB22OurUeogt2L5ypzgY_w_TdCzkunxnkGV_HFYo816HDAt-OsHlJvoqRg/exec" \
+-H "Content-Type: application/json" \
+-d '{"taskID":"2","date":"12/30/1899 19:38:22"}' > output.html
+
+curl -X GET "https://script.google.com/macros/s/AKfycbz0pu0UtL0fBsZctGJBlaVDYTSob0b9QriYDwp_58qHxaTObuaQTFgr_23bKp2dCFWy/exec"

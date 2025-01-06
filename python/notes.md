@@ -29,3 +29,13 @@ str = str.strip()
 ```
 ''.join(arr)
 ```
+
+### map()
+Applies a function to every element of a list:
+```
+vals = ['1','2','3']
+ints = map(int, vals)
+```
+
+### deque()
+A doubly ended queue. Prefer over a list when we need quicker append and pop operations from both ends (O(1) vs O(n) time).
